@@ -1,6 +1,9 @@
 %global forgeurl https://github.com/alerque/cldr-lua
 %global tag v%{version}
 
+%define lua_version %(lua -e 'print(_VERSION)' | cut -d ' ' -f 2)
+%define lua_pkgdir %{_libdir}/lua/%{lua_version}
+
 Name:      lua-cldr
 Version:   0.3.0
 Release:   1
