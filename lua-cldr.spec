@@ -8,6 +8,7 @@ Name:      lua-cldr
 Version:   0.3.0
 Release:   1
 Summary:   Lua interface to Unicode CLDR data
+Group:     Development/Other
 
 # The Lua interfaces and code is MIT License
 # All data provided by the Unicode Consortium is licensed under ICU License
